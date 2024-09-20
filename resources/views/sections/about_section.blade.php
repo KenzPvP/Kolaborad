@@ -1,5 +1,5 @@
 <section class="py-12">
-    <div class="relative h-screen bg-cover bg-center" style="background-image: url('images/shakehand.jpg');">
+    <div class="relative h-screen bg-cover bg-center" style="background-image: url('images/about.jpg');">
         <!-- Overlay for darkening the background image -->
         <div class="absolute inset-0 bg-black opacity-50"></div>
 

@@ -9,11 +9,13 @@
     @vite('resources/css/app.css')
 </head>
 
+
+
 <body>
     @include('modals.navbar')
 
     <section>
-        <div class="relative h-screen bg-cover bg-center" style="background-image: url('images/shakehand.jpg');">
+        <div class="relative h-screen bg-cover bg-center" style="background-image: url('images/about.jpg');">
             <!-- Overlay for darkening the background image -->
             <div class="absolute inset-0 bg-black opacity-50"></div>
 
@@ -29,7 +31,6 @@
                 </div>
             </div>
         </div>
-
 
 
 

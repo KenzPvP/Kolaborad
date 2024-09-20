@@ -37,3 +37,7 @@ Route::get('/blogs', function () {
 Route::get('/contact', function () {
     return view('pages.contact_page');
 });
+
+Route::get('/privacypolicy', function () {
+    return view('pages.privacyPolicy_page');
+});
