@@ -9,7 +9,7 @@
     @vite('resources/css/app.css')
 </head>
 
-<body>
+<body id="services">
     @include('modals.navbar')
 
     <!-- Section Layanan -->

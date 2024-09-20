@@ -70,6 +70,13 @@
                     </div>
                 </div>
 
+                <!-- Visi Section -->
+                <div class="mt-10">
+                    <p class="text-lg font-semibold text-gray-700">Visi:</p>
+                    <p class="mt-4 text-xl text-gray-500">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vulputate orci a est sollicitudin, ac convallis ante ornare. Sed imperdiet magna pulvinar mattis porta. Ut et luctus est, in suscipit libero. Suspendisse euismod metus sed fermentum congue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean tempor turpis ipsum, vitae auctor nibh gravida sit amet. Ut neque arcu, feugiat a faucibus eget, maximus eget felis. Ut lacinia velit sed sapien lacinia cursus.
+                    </p>
+                </div>
                 <!-- Misi Section -->
                 <div class="mt-10">
                     <p class="text-lg font-semibold text-gray-700">Misi:</p>

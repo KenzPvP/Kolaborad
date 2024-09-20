@@ -9,9 +9,10 @@
 </head>
 <body>
 
+    @include('modals.navbar')
     <main>
         {{-- navbar --}}
-        @include('modals.navbar')
+
         {{-- content --}}
 
         @include('sections.home_section')
