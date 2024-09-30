@@ -252,10 +252,10 @@
                             </svg>
                         </div>
                         <div class="px-6 py-4">
-                            <div class="font-bold text-xl text-center mb-2">Agility</div>
+                            <div class="font-bold text-xl text-center mb-2">Quality</div>
                             <p class="text-gray-700 text-center">
-                                Kami memahami dinamika dunia bisnis yang cepat berubah dan siap untuk beradaptasi
-                                dan bergerak cepat demi keberhasilan klien.
+                                Kami berkomitmen untuk memberikan solusi dengan kualitas terbaik yang terukur dan
+                                berfokus pada hasil yang nyata.
 
                             </p>
                         </div>
