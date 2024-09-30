@@ -41,18 +41,14 @@
                     <div class="text-start">
                         <h2 class="text-2xl text-[#4993EB] font-semibold tracking-wide uppercase">Tentang Kami</h2>
                         <p class="mt-4 text-xl text-gray-500">
-                            Kolaborad adalah perusahaan yang menghubungkan ide-ide cemerlang dengan eksekusi sempurna.
-                            Kami
-                            percaya
-                            bahwa kolaborasi adalah kunci untuk mencapai inovasi terbaik. Dengan tim yang berdedikasi
-                            dan
-                            berpengalaman, Kolaborad menyediakan solusi kreatif dan strategis untuk membantu bisnis Anda
-                            tumbuh
-                            dan
-                            berkembang. Kami berkomitmen untuk menjadi mitra terpercaya dalam setiap langkah perjalanan
-                            Anda
-                            menuju
-                            sukses.
+                            Kolaborad adalah perusahaan konsultan bisnis yang didirikan dengan misi membantu UMKM dan Startup
+                            dalam mengembangkan serta memajukan bisnis mereka. Kami percaya bahwa kolaborasi adalah kunci untuk
+                             meraih kesuksesan yang berkelanjutan, dan dengan tagline "Your Business Collaboration Partner", kami
+                             berkomitmen menjadi mitra terbaik bagi setiap bisnis yang ingin berkembang.
+                             <br>
+                             <br>
+                             Melalui pendekatan yang personal dan analitis, kami membantu klien menemukan solusi yang tepat untuk mengoptimalkan operasi, meningkatkan penjualan, memperkuat pemasaran, dan memperbaiki manajemen keuangan mereka. Kolaborad hadir untuk membantu klien menghadapi berbagai tantangan bisnis, baik dari segi strategi, teknologi, hingga implementasi.
+
                         </p>
                     </div>
                     <hr class="h-1 my-3 border-0 bg-blue-300">
@@ -101,7 +97,9 @@
                 <div class="mt-10">
                     <p class="text-lg font-semibold text-gray-700">Visi:</p>
                     <p class="mt-4 text-xl text-gray-500">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vulputate orci a est sollicitudin, ac convallis ante ornare. Sed imperdiet magna pulvinar mattis porta. Ut et luctus est, in suscipit libero. Suspendisse euismod metus sed fermentum congue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean tempor turpis ipsum, vitae auctor nibh gravida sit amet. Ut neque arcu, feugiat a faucibus eget, maximus eget felis. Ut lacinia velit sed sapien lacinia cursus.
+                        Menjadi mitra utama bagi UMKM dan Startup dalam mengembangkan potensi bisnisnya melalui kolaborasi
+                        strategis dan berkelanjutan, sehingga mampu berkontribusi secara signifikan dalam pertumbuhan
+                        ekonomi dan kemajuan teknologi di Indonesia.
                     </p>
                 </div>
                 <!-- Misi Section -->
@@ -120,12 +118,13 @@
                                     Memberikan Solusi Berkualitas
                                 </h3>
                                 <p class="mt-2 text-base text-gray-500">
-                                    Menyediakan larangan konsultasi yang komprehensif dan terukur untuk membantu klien
-                                    meningkatkan kinerja operasional, finansial, dan strategis mereka.
+                                    Memberikan solusi bisnis yang inovatif dan praktis untuk UMKM dan Startup
+                                    melalui pendekatan berbasis kolaborasi.
+    
                                 </p>
                             </div>
                         </div>
-
+    
                         <!-- Misi 2 -->
                         <div class="flex">
                             <div class="flex-shrink-0">
@@ -138,13 +137,14 @@
                                     Mendorong Transformasi Digital
                                 </h3>
                                 <p class="mt-2 text-base text-gray-500">
-                                    Membantu perusahaan dalam mengadopsi teknologi terbaru untuk memaksimalkan efisiensi
-                                    dan
-                                    mendorong inovasi.
+                                    Memfasilitasi pelatihan dan konsultasi yang dapat diakses sesuai kebutuhan
+                                    setiap perusahaan, dengan fokus pada pengembangan pemasaran,
+                                    penjualan, keuangan, dan teknologi.
+    
                                 </p>
                             </div>
                         </div>
-
+    
                         <!-- Misi 3 -->
                         <div class="flex">
                             <div class="flex-shrink-0">
@@ -157,12 +157,13 @@
                                     Mengembangkan Potensi SDM
                                 </h3>
                                 <p class="mt-2 text-base text-gray-500">
-                                    Berfokus pada pengembangan sumber daya manusia yang menjadi fondasi kesuksesan
-                                    organisasi.
+                                    Mengembangkan ekosistem yang mendukung pertumbuhan berkelanjutan
+                                    bagi para pelaku bisnis melalui pembinaan yang berkelanjutan dan komprehensif.
+    
                                 </p>
                             </div>
                         </div>
-
+    
                         <!-- Misi 4 -->
                         <div class="flex">
                             <div class="flex-shrink-0">
@@ -175,9 +176,28 @@
                                     Menyediakan Konsultasi Berbasis Data
                                 </h3>
                                 <p class="mt-2 text-base text-gray-500">
-                                    Mengambil keputusan berbasis data yang mendalam dan analitis untuk memberikan solusi
-                                    yang
-                                    sesuai dengan kebutuhan spesifik setiap klien.
+                                    Membangun hubungan jangka panjang yang saling menguntungkan antara para
+                                    pelaku UMKM, Startup, dan para ahli di Kolaborad.
+    
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Misi 5 -->
+                        <div class="flex">
+                            <div class="flex-shrink-0">
+                                <div class="flex items-center justify-center h-12 w-12 rounded-full bg-blue-500 text-white">
+                                    5
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-lg leading-6 font-medium text-gray-900">
+                                    Meningkatkan kualitas persaingan
+                                </h3>
+                                <p class="mt-2 text-base text-gray-500">
+                                    Meningkatkan daya saing perusahaan klien melalui penggunaan teknologi terbaru
+                                    dan strategi manajemen yang tepat.
+    
+    
                                 </p>
                             </div>
                         </div>
@@ -295,10 +315,10 @@
                                 </svg>
                             </div>
                             <div class="px-6 py-4">
-                                <div class="font-bold text-xl text-center mb-2">Quality</div>
+                                <div class="font-bold text-xl text-center mb-2">Agility</div>
                                 <p class="text-gray-700 text-center">
-                                    Kami berkomitmen untuk memberikan solusi dengan kualitas terbaik yang terukur dan
-                                    berfokus pada hasil yang nyata.
+                                    Kami memahami dinamika dunia bisnis yang cepat berubah dan siap untuk beradaptasi 
+                                dan bergerak cepat demi keberhasilan klien.
     
                                 </p>
                             </div>
