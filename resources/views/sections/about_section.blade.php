@@ -29,6 +29,9 @@
                     dalam mengembangkan serta memajukan bisnis mereka. Kami percaya bahwa kolaborasi adalah kunci untuk
                     meraih kesuksesan yang berkelanjutan, dan dengan tagline "Your Business Collaboration Partner", kami
                     berkomitmen menjadi mitra terbaik bagi setiap bisnis yang ingin berkembang.
+                    <br>
+                    <br>
+                    Melalui pendekatan yang personal dan analitis, kami membantu klien menemukan solusi yang tepat untuk mengoptimalkan operasi, meningkatkan penjualan, memperkuat pemasaran, dan memperbaiki manajemen keuangan mereka. Kolaborad hadir untuk membantu klien menghadapi berbagai tantangan bisnis, baik dari segi strategi, teknologi, hingga implementasi.
 
                 </p>
             </div>
@@ -254,8 +257,9 @@
                         <div class="px-6 py-4">
                             <div class="font-bold text-xl text-center mb-2">Agility</div>
                             <p class="text-gray-700 text-center">
-                                Kami memahami dinamika dunia bisnis yang cepat berubah dan siap untuk beradaptasi
+                                Kami memahami dinamika dunia bisnis yang cepat berubah dan siap untuk beradaptasi 
                                 dan bergerak cepat demi keberhasilan klien.
+
 
                             </p>
                         </div>

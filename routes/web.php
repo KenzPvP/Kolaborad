@@ -1,5 +1,6 @@
 <?php
 
+use Faker\Guesser\Name;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -41,3 +42,7 @@ Route::get('/contact', function () {
 Route::get('/privacypolicy', function () {
     return view('pages.privacyPolicy_page');
 });
+
+Route::get('service', function(){
+    return view('pages.service_page');
+})->name('service_page');
