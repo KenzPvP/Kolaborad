@@ -60,14 +60,23 @@
                         <h2 class="text-2xl text-[#4993EB] font-semibold tracking-wide uppercase">Sejarah awal mula
                             Kolaborad</h2>
                         <p class="mt-4 text-xl text-gray-500">
-                            Kolaborad didirikan oleh sekelompok profesional yang melihat kebutuhan yang mendesak akan
-                            solusi manajemen dan teknologi yang terintegrasi di tengah revolusi digital yang berkembang
-                            pesat. Berawal dari visi untuk memajukan bisnis melalui kolaborasi dan inovasi, para pendiri
-                            dengan latar belakang IT, manajemen, dan konsultasi membentuk Kolaborad sebagai perusahaan
-                            konsultan manajemen dan solusi IT. Mereka percaya bahwa keberhasilan bisnis di masa depan
-                            bergantung pada penerapan teknologi yang tepat guna, dengan pendekatan yang kustom sesuai
-                            kebutuhan setiap klien.
+                            Kolaborad lahir dari sebuah percakapan sederhana namun penuh makna, berawal dari sesi ngopi bareng setelah pandemi Covid-19 usai. Para pendirinya, yang telah pensiun dari berbagai perusahaan nasional dan multinasional, berkumpul dengan satu keinginan yang sama: berbagi ilmu dan pengalaman yang telah diperoleh selama bertahun-tahun untuk kemajuan Indonesia.
+
                         </p>
+                        <p class="mt-4 text-xl text-gray-500">
+                            Pandemi menyadarkan kami akan pentingnya keberlanjutan bisnis, terutama bagi UMKM dan startup yang sering kali menjadi tulang punggung ekonomi, namun tak jarang menghadapi tantangan besar di awal perjalanan mereka. Kami melihat begitu banyak usaha kecil yang berjuang untuk bertahan dan melewati "lembah kematian" — fase di mana banyak startup dan UMKM tumbang sebelum mereka sempat berkembang. Para pelaku UMKM dan startup ini memiliki potensi luar biasa, tetapi sering kali kekurangan bimbingan dan dukungan yang tepat dari para ahli.
+
+
+                        </p>
+                        <p class="mt-4 text-xl text-gray-500">
+                            Dari sinilah Kolaborad muncul, dengan misi besar: membantu UMKM dan startup di Indonesia berkembang melalui pendekatan kolaborasi. Kami percaya bahwa keberhasilan tidak bisa dicapai sendirian. Oleh karena itu, kami menggabungkan berbagai keahlian dari para Coach kami yang berpengalaman di bidang Marketing, Sales, Finance, IT, dan banyak lagi. Dengan berkolaborasi, kami dapat memberikan solusi yang benar-benar disesuaikan dengan kondisi dan kebutuhan spesifik setiap bisnis yang kami bantu.
+
+
+                        </p>
+                        <p class="mt-4 text-xl text-gray-500">
+                            Bagi kami, UMKM dan startup bukan hanya bisnis kecil, mereka adalah masa depan pertumbuhan ekonomi Indonesia. Melalui Kolaborad, kami berkomitmen untuk memberikan dampak nyata dan membantu mereka melampaui tantangan, tumbuh dengan percaya diri, dan menjadi pilar penting dalam pembangunan ekonomi negara ini.
+                        </p>
+                       
                     </div>
                 </div>
 

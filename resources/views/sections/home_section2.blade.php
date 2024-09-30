@@ -34,7 +34,7 @@
 
 
         <!-- Bagian kanan dengan gambar logo -->
-        <div class="md:w-1/2 flex justify-center items-center z-50">
+        <div class="md:w-1/2 flex justify-center items-center z-10">
             <img src="images/Group 27 (6).png" alt="Kolaborad Logo" class=" h-auto">
         </div>
     </section>
