@@ -30,6 +30,11 @@
                     meraih kesuksesan yang berkelanjutan, dan dengan tagline "Your Business Collaboration Partner", kami
                     berkomitmen menjadi mitra terbaik bagi setiap bisnis yang ingin berkembang.
 
+                    <br>
+                    <br>
+                     Melalui pendekatan yang personal dan analitis, kami membantu klien menemukan solusi yang tepat untuk mengoptimalkan operasi,
+                     meningkatkan penjualan, memperkuat pemasaran, dan memperbaiki manajemen keuangan mereka. Kolaborad hadir untuk membantu klien 
+                     menghadapi berbagai tantangan bisnis, baik dari segi strategi, teknologi, hingga implementasi.
                 </p>
             </div>
 
