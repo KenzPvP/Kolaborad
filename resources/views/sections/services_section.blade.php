@@ -45,13 +45,13 @@
             <!-- Card 1 -->
             <div class="bg-white shadow-lg p-6  ">
                 <div class="flex items-center mb-4">
-                    <img src="images/idea.png" alt="Icon" class="w-10 h-10">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 14 14"><g fill="none" stroke="#4993eb" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 1.5H11a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-10a1 1 0 0 1 1-1h1.5"/><path d="M8.5.5h-3a1 1 0 0 0-1 1V2a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-.5a1 1 0 0 0-1-1M4.046 6.203a1.25 1.25 0 1 0 2.5 0a1.25 1.25 0 0 0-2.5 0m3.406 2.63l2.5 2.5m.002-2.5l-2.5 2.5"/></g></svg>
                 </div>
-                <h3 class="text-lg font-bold text-gray-700 mb-2">Solusi IT</h3>
-                <p class="text-gray-600 mb-4">Solusi ini membantu perusahaan memanfaatkan teknologi digital
-                    untuk mengubah operasi bisnis mereka, meningkatkan efisiensi, dan menciptakan inovasi baru.
+                <h3 class="text-lg font-bold text-gray-700 mb-2">Marketing Strategy</h3>
+                <p class="text-gray-600 mb-4">Kami membantu klien dalam menyusun dan mengimplementasikan strategi pemasaran yang
+                    efektif dan terukur untuk meningkatkan brand awareness dan engagement di pasar.
                 </p>
-                <a href="#" class="text-blue-600 font-semibold hover:underline flex items-center">Learn
+                <a href="{{ route('service_page') }}" class="text-blue-600 font-semibold hover:underline flex items-center">Learn
                     More
                     <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                         xmlns="http://www.w3.org/2000/svg">
@@ -63,13 +63,12 @@
             <!-- Card 2 -->
             <div class="bg-white shadow-lg p-6  ">
                 <div class="flex items-center mb-4">
-                    <img src="images/digital-transformation.png" alt="Icon" class="w-10 h-10">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 48 48"><g fill="none" stroke="#4993eb" stroke-linejoin="round" stroke-width="4"><path d="M41 14L24 4L7 14v20l17 10l17-10z"/><path stroke-linecap="round" d="M24 22v8m8-12v12m-16-4v4"/></g></svg>
                 </div>
-                <h3 class="text-lg font-bold text-gray-700 mb-2">Strategi IT dan Transformasi Digital</h3>
-                <p class="text-gray-600 mb-4">Membantu perusahaan merancang strategi IT yang sejalan dengan
-                    tujuan bisnis jangka panjang. Layanan ini meliputi perencanaan transformasi digital, adopsi
-                    teknologi baru, dan pengembangan arsitektur IT yang mendukung inovasi.</p>
-                <a href="#" class="text-blue-600 font-semibold hover:underline flex items-center">Learn
+                <h3 class="text-lg font-bold text-gray-700 mb-2">Sales B2B & B2C Development</h3>
+                <p class="text-gray-600 mb-4">Tim kami memberikan bimbingan dalam mengembangkan strategi penjualan yang optimal, baik
+                    untuk Business-to-Business (B2B) maupun Business-to-Consumer (B2C).</p>
+                <a href="{{ route('service_b2b_page') }}" class="text-blue-600 font-semibold hover:underline flex items-center">Learn
                     More
                     <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                         xmlns="http://www.w3.org/2000/svg">
@@ -81,12 +80,11 @@
             <!-- Card 3 -->
             <div class="bg-white shadow-lg p-6  ">
                 <div class="flex items-center mb-4">
-                    <img src="images/page-speed.png" alt="Icon" class="w-10 h-10">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 16 16"><path fill="#4993eb" fill-rule="evenodd" d="M11.25 1a.75.75 0 0 1 .75.75V3h2a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h2V1.75a.75.75 0 0 1 1.5 0V3h5V1.75a.75.75 0 0 1 .75-.75M2.5 7.5v6h11v-6zm0-1.5h11V4.5h-11zm7.78 2.97a.75.75 0 0 1 0 1.06l-2.25 2.25a.75.75 0 0 1-1.06 0l-1.25-1.25a.75.75 0 1 1 1.06-1.06l.72.72l1.72-1.72a.75.75 0 0 1 1.06 0" clip-rule="evenodd"/></svg>
                 </div>
-                <h3 class="text-lg font-bold text-gray-700 mb-2">Strategi IT dan Transformasi Digital</h3>
-                <p class="text-gray-600 mb-4">Membantu perusahaan merancang strategi IT yang sejalan dengan
-                    tujuan bisnis jangka panjang. Layanan ini meliputi perencanaan transformasi digital, adopsi
-                    teknologi baru, dan pengembangan arsitektur IT yang mendukung inovasi.</p>
+                <h3 class="text-lg font-bold text-gray-700 mb-2">Financial Planning & Management</h3>
+                <p class="text-gray-600 mb-4"> Layanan kami mencakup manajemen keuangan yang kuat, termasuk pengelolaan cash flow,
+                    budgeting, dan perencanaan strategi keuangan untuk masa depan yang lebih stabil.</p>
                 <a href="#" class="text-blue-600 font-semibold hover:underline flex items-center">Learn
                     More
                     <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"
@@ -99,12 +97,11 @@
             <!-- Card 4 -->
             <div class="bg-white shadow-lg p-6  ">
                 <div class="flex items-center mb-4">
-                    <img src="images/page-speed.png" alt="Icon" class="w-10 h-10">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 14 14"><path fill="none" stroke="#4993eb" stroke-linecap="round" stroke-linejoin="round" d="M4.194 8.094a1.86 1.86 0 1 0 0-3.719a1.86 1.86 0 0 0 0 3.719M.523 13.479A3.7 3.7 0 0 1 1 11.704a3.71 3.71 0 0 1 3.195-1.868c1.31.003 2.55.727 3.195 1.868a3.7 3.7 0 0 1 .477 1.774m2.02-12.095v-.82m2.799 1.827l.671-.471m-6.271.471l-.672-.471m5.506 3.139a2.055 2.055 0 0 0-2.077-2.042a2.055 2.055 0 0 0-1.99 2.127a2.07 2.07 0 0 0 1.126 1.73v1a.227.227 0 0 0 .226.22h1.361a.227.227 0 0 0 .227-.22V6.855a2.07 2.07 0 0 0 1.128-1.797Z"/></svg>
                 </div>
-                <h3 class="text-lg font-bold text-gray-700 mb-2">Strategi IT dan Transformasi Digital</h3>
-                <p class="text-gray-600 mb-4">Membantu perusahaan merancang strategi IT yang sejalan dengan
-                    tujuan bisnis jangka panjang. Layanan ini meliputi perencanaan transformasi digital, adopsi
-                    teknologi baru, dan pengembangan arsitektur IT yang mendukung inovasi.</p>
+                <h3 class="text-lg font-bold text-gray-700 mb-2">Digital Transformation & IT Solutions</h3>
+                <p class="text-gray-600 mb-4">Kolaborad memberikan solusi digital yang terintegrasi untuk membantu bisnis bertransformasi
+                    secara teknologi, meningkatkan efisiensi operasional, dan mengoptimalkan manajemen data.</p>
                 <a href="#" class="text-blue-600 font-semibold hover:underline flex items-center">Learn
                     More
                     <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"
