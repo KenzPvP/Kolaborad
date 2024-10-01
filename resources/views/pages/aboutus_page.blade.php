@@ -97,9 +97,7 @@
                 <div class="mt-10">
                     <p class="text-lg font-semibold text-gray-700">Visi:</p>
                     <p class="mt-4 text-xl text-gray-500">
-                        Menjadi mitra utama bagi UMKM dan Startup dalam mengembangkan potensi bisnisnya melalui kolaborasi
-                        strategis dan berkelanjutan, sehingga mampu berkontribusi secara signifikan dalam pertumbuhan
-                        ekonomi dan kemajuan teknologi di Indonesia.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vulputate orci a est sollicitudin, ac convallis ante ornare. Sed imperdiet magna pulvinar mattis porta. Ut et luctus est, in suscipit libero. Suspendisse euismod metus sed fermentum congue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean tempor turpis ipsum, vitae auctor nibh gravida sit amet. Ut neque arcu, feugiat a faucibus eget, maximus eget felis. Ut lacinia velit sed sapien lacinia cursus.
                     </p>
                 </div>
                 <!-- Misi Section -->
@@ -109,7 +107,8 @@
                         <!-- Misi 1 -->
                         <div class="flex">
                             <div class="flex-shrink-0">
-                                <div class="flex items-center justify-center h-12 w-12 rounded-full bg-blue-500 text-white">
+                                <div
+                                    class="flex items-center justify-center h-12 w-12 rounded-full bg-blue-500 text-white">
                                     1
                                 </div>
                             </div>
@@ -120,15 +119,16 @@
                                 <p class="mt-2 text-base text-gray-500">
                                     Memberikan solusi bisnis yang inovatif dan praktis untuk UMKM dan Startup
                                     melalui pendekatan berbasis kolaborasi.
-    
+
                                 </p>
                             </div>
                         </div>
-    
+
                         <!-- Misi 2 -->
                         <div class="flex">
                             <div class="flex-shrink-0">
-                                <div class="flex items-center justify-center h-12 w-12 rounded-full bg-blue-500 text-white">
+                                <div
+                                    class="flex items-center justify-center h-12 w-12 rounded-full bg-blue-500 text-white">
                                     2
                                 </div>
                             </div>
@@ -140,15 +140,16 @@
                                     Memfasilitasi pelatihan dan konsultasi yang dapat diakses sesuai kebutuhan
                                     setiap perusahaan, dengan fokus pada pengembangan pemasaran,
                                     penjualan, keuangan, dan teknologi.
-    
+
                                 </p>
                             </div>
                         </div>
-    
+
                         <!-- Misi 3 -->
                         <div class="flex">
                             <div class="flex-shrink-0">
-                                <div class="flex items-center justify-center h-12 w-12 rounded-full bg-blue-500 text-white">
+                                <div
+                                    class="flex items-center justify-center h-12 w-12 rounded-full bg-blue-500 text-white">
                                     3
                                 </div>
                             </div>
@@ -159,15 +160,16 @@
                                 <p class="mt-2 text-base text-gray-500">
                                     Mengembangkan ekosistem yang mendukung pertumbuhan berkelanjutan
                                     bagi para pelaku bisnis melalui pembinaan yang berkelanjutan dan komprehensif.
-    
+
                                 </p>
                             </div>
                         </div>
-    
+
                         <!-- Misi 4 -->
                         <div class="flex">
                             <div class="flex-shrink-0">
-                                <div class="flex items-center justify-center h-12 w-12 rounded-full bg-blue-500 text-white">
+                                <div
+                                    class="flex items-center justify-center h-12 w-12 rounded-full bg-blue-500 text-white">
                                     4
                                 </div>
                             </div>
@@ -178,7 +180,7 @@
                                 <p class="mt-2 text-base text-gray-500">
                                     Membangun hubungan jangka panjang yang saling menguntungkan antara para
                                     pelaku UMKM, Startup, dan para ahli di Kolaborad.
-    
+
                                 </p>
                             </div>
                         </div>
@@ -196,8 +198,8 @@
                                 <p class="mt-2 text-base text-gray-500">
                                     Meningkatkan daya saing perusahaan klien melalui penggunaan teknologi terbaru
                                     dan strategi manajemen yang tepat.
-    
-    
+
+
                                 </p>
                             </div>
                         </div>
@@ -233,11 +235,11 @@
 
             </div>
 
-            <div class="py-12 px-4 lg:px-16 mt-48">
+            <div class="flex flex-col py-12 px-4 lg:px-16 mt-48">
 
                 <div class="flex flex-col gap-20 max-w-7xl mx-auto">
                     <h2 class="text-3xl font-semibold text-center text-[#4993EB] mb-8">Nilai-nilai</h2>
-    
+
                     <!-- Card Grid -->
                     <div class="grid grid-cols-1 px-20 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                         <!-- Card 1 -->
@@ -253,12 +255,12 @@
                                 <p class="text-gray-700 text-center">
                                     Kami berkomitmen untuk menjaga kejujuran, transparansi, dan profesionalisme dalam
                                     setiap aspek kerja sama dengan klien.
-    
+
                                 </p>
                             </div>
-    
-                        </div>
-    
+
+                    </div>
+
                         <!-- Card 2 -->
                         <div class="max-w-sm rounded overflow-hidden shadow-lg">
                             <div class="flex flex-row justify-center items-center self-center">
@@ -275,12 +277,12 @@
                                 <p class="text-gray-700 text-center">
                                     Kami percaya pada kekuatan kolaborasi yang saling menguntungkan, di mana
                                     semua pihak tumbuh dan berkembang bersama.
-    
+
                                 </p>
                             </div>
-    
-                        </div>
-    
+
+                    </div>
+
                         <!-- Card 3 -->
                         <div class="max-w-sm rounded overflow-hidden shadow-lg">
                             <div class="flex flex-row justify-center items-center self-center">
@@ -294,16 +296,16 @@
                                 <p class="text-gray-700 text-center">
                                     Kepercayaan adalah fondasi dari semua hubungan bisnis kami. Kami
                                     berusaha membangun kepercayaan yang kuat antara klien dan tim kami.
-    
+
                                 </p>
                             </div>
-    
+
                         </div>
-    
-    
-    
+
+
+
                     </div>
-    
+
                     <div class="flex flex-row justify-center items-center gap-5">
                         <!-- Card 4 -->
                         <div class="max-w-sm rounded overflow-hidden shadow-lg">
@@ -317,55 +319,54 @@
                             <div class="px-6 py-4">
                                 <div class="font-bold text-xl text-center mb-2">Agility</div>
                                 <p class="text-gray-700 text-center">
-                                    Kami memahami dinamika dunia bisnis yang cepat berubah dan siap untuk beradaptasi 
+                                    Kami memahami dinamika dunia bisnis yang cepat berubah dan siap untuk beradaptasi
                                 dan bergerak cepat demi keberhasilan klien.
-    
+
                                 </p>
                             </div>
-    
-                        </div>
-                        <!-- Card 5 -->
-                        <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                            <div class="flex flex-row justify-center items-center self-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em"
-                                    viewBox="0 0 32 32">
-                                    <path fill="#4993eb"
-                                        d="M30 6V4h-3V2h-2v2h-1c-1.103 0-2 .898-2 2v2c0 1.103.897 2 2 2h4v2h-6v2h3v2h2v-2h1c1.103 0 2-.897 2-2v-2c0-1.102-.897-2-2-2h-4V6zm-6 14v2h2.586L23 25.586l-2.292-2.293a1 1 0 0 0-.706-.293H20a1 1 0 0 0-.706.293L14 28.586L15.414 30l4.587-4.586l2.292 2.293a1 1 0 0 0 1.414 0L28 23.414V26h2v-6zM4 30H2v-5c0-3.86 3.14-7 7-7h6c1.989 0 3.89.85 5.217 2.333l-1.49 1.334A5 5 0 0 0 15 20H9c-2.757 0-5 2.243-5 5zm8-14a7 7 0 1 0 0-14a7 7 0 0 0 0 14m0-12a5 5 0 1 1 0 10a5 5 0 0 1 0-10" />
-                                </svg>
-                            </div>
-                            <div class="px-6 py-4">
-                                <div class="font-bold text-xl text-center mb-2">Quality</div>
-                                <p class="text-gray-700 text-center">
-                                    Kami berkomitmen untuk memberikan solusi dengan kualitas terbaik yang terukur dan
-                                    berfokus pada hasil yang nyata.
-    
-                                </p>
-                            </div>
-    
-                        </div>
+
                     </div>
-                </div>
-                <div class="text-start">
-                    <h2 class="text-2xl text-[#4993EB] font-semibold tracking-wide uppercase">Misi sosial</h2>
-                    <div class="mt-6 grid grid-cols-1 gap-y-10 md:grid-cols-2 md:gap-x-8">
-                        <!-- Misi 1 -->
-                        <div class="flex">
-                            <div class="flex-shrink-0">
-                                <div
-                                    class="flex items-center justify-center h-12 w-12 rounded-full bg-blue-500 text-white">
-                                    1
+                    <!-- Card 5 -->
+                    <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                        <div class="flex flex-row justify-center items-center self-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em"
+                                viewBox="0 0 32 32">
+                                <path fill="#4993eb"
+                                    d="M30 6V4h-3V2h-2v2h-1c-1.103 0-2 .898-2 2v2c0 1.103.897 2 2 2h4v2h-6v2h3v2h2v-2h1c1.103 0 2-.897 2-2v-2c0-1.102-.897-2-2-2h-4V6zm-6 14v2h2.586L23 25.586l-2.292-2.293a1 1 0 0 0-.706-.293H20a1 1 0 0 0-.706.293L14 28.586L15.414 30l4.587-4.586l2.292 2.293a1 1 0 0 0 1.414 0L28 23.414V26h2v-6zM4 30H2v-5c0-3.86 3.14-7 7-7h6c1.989 0 3.89.85 5.217 2.333l-1.49 1.334A5 5 0 0 0 15 20H9c-2.757 0-5 2.243-5 5zm8-14a7 7 0 1 0 0-14a7 7 0 0 0 0 14m0-12a5 5 0 1 1 0 10a5 5 0 0 1 0-10" />
+                            </svg>
+                        </div>
+                        <div class="px-6 py-4">
+                            <div class="font-bold text-xl text-center mb-2">Quality</div>
+                            <p class="text-gray-700 text-center">
+                                Kami berkomitmen untuk memberikan solusi dengan kualitas terbaik yang terukur dan
+                                berfokus pada hasil yang nyata.
+
+                            </p>
+                        </div>
+
+
+                    </div>
+                    <div class="text-start">
+                        <h2 class="text-2xl text-[#4993EB] font-semibold tracking-wide uppercase">Misi sosial</h2>
+                        <div class="mt-6 grid grid-cols-1 gap-y-10 md:grid-cols-2 md:gap-x-8">
+                            <!-- Misi 1 -->
+                            <div class="flex">
+                                <div class="flex-shrink-0">
+                                    <div
+                                        class="flex items-center justify-center h-12 w-12 rounded-full bg-blue-500 text-white">
+                                        1
+                                    </div>
+                                </div>
+                                <div class="ml-4">
+                                    <h3 class="text-lg leading-6 font-medium text-gray-900">
+                                        Pendidikan Teknologi
+                                    </h3>
+                                    <p class="mt-2 text-base text-gray-500">
+                                        Mengadakan pelatihan IT gratis bagi masyarakat kurang mampu, membantu mereka
+                                        mendapatkan keterampilan di bidang teknologi.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="ml-4">
-                                <h3 class="text-lg leading-6 font-medium text-gray-900">
-                                    Pendidikan Teknologi
-                                </h3>
-                                <p class="mt-2 text-base text-gray-500">
-                                    Mengadakan pelatihan IT gratis bagi masyarakat kurang mampu, membantu mereka
-                                    mendapatkan keterampilan di bidang teknologi.
-                                </p>
-                            </div>
-                        </div>
 
                         <!-- Misi 2 -->
                         <div class="flex">
@@ -406,11 +407,13 @@
                         </div>
 
 
+                        </div>
                     </div>
                 </div>
 
+
+                </div>
             </div>
-        </div>
 
     </section>
     @include('modals.footer')
