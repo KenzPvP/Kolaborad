@@ -346,68 +346,69 @@
 
 
                     </div>
-                    <div class="text-start">
-                        <h2 class="text-2xl text-[#4993EB] font-semibold tracking-wide uppercase">Misi sosial</h2>
-                        <div class="mt-6 grid grid-cols-1 gap-y-10 md:grid-cols-2 md:gap-x-8">
-                            <!-- Misi 1 -->
-                            <div class="flex">
-                                <div class="flex-shrink-0">
-                                    <div
-                                        class="flex items-center justify-center h-12 w-12 rounded-full bg-blue-500 text-white">
-                                        1
-                                    </div>
-                                </div>
-                                <div class="ml-4">
-                                    <h3 class="text-lg leading-6 font-medium text-gray-900">
-                                        Pendidikan Teknologi
-                                    </h3>
-                                    <p class="mt-2 text-base text-gray-500">
-                                        Mengadakan pelatihan IT gratis bagi masyarakat kurang mampu, membantu mereka
-                                        mendapatkan keterampilan di bidang teknologi.
-                                    </p>
-                                </div>
-                            </div>
-
-                        <!-- Misi 2 -->
+                   
+                </div>
+                <div class="text-start">
+                    <h2 class="text-2xl text-[#4993EB] font-semibold tracking-wide uppercase">Misi sosial</h2>
+                    <div class="mt-6 grid grid-cols-1 gap-y-10 md:grid-cols-2 md:gap-x-8">
+                        <!-- Misi 1 -->
                         <div class="flex">
                             <div class="flex-shrink-0">
                                 <div
                                     class="flex items-center justify-center h-12 w-12 rounded-full bg-blue-500 text-white">
-                                    3
+                                    1
                                 </div>
                             </div>
                             <div class="ml-4">
                                 <h3 class="text-lg leading-6 font-medium text-gray-900">
-                                    Lingkungan
+                                    Pendidikan Teknologi
                                 </h3>
                                 <p class="mt-2 text-base text-gray-500">
-                                    Kolaborad berpartisipasi dalam program penghijauan dan kampanye untuk
-                                    pengurangan sampah elektronik.
+                                    Mengadakan pelatihan IT gratis bagi masyarakat kurang mampu, membantu mereka
+                                    mendapatkan keterampilan di bidang teknologi.
                                 </p>
                             </div>
                         </div>
 
-                        <!-- Misi 3 -->
-                        <div class="flex">
-                            <div class="flex-shrink-0">
-                                <div
-                                    class="flex items-center justify-center h-12 w-12 rounded-full bg-blue-500 text-white">
-                                    2
-                                </div>
-                            </div>
-                            <div class="ml-4">
-                                <h3 class="text-lg leading-6 font-medium text-gray-900">
-                                    Pemberdayaan UMKM
-                                </h3>
-                                <p class="mt-2 text-base text-gray-500">
-                                    Memberikan konsultasi gratis kepada UMKM untuk membantu mereka mengadopsi
-                                    teknologi digital dalam bisnis mereka.
-                                </p>
+                    <!-- Misi 2 -->
+                    <div class="flex">
+                        <div class="flex-shrink-0">
+                            <div
+                                class="flex items-center justify-center h-12 w-12 rounded-full bg-blue-500 text-white">
+                                3
                             </div>
                         </div>
-
-
+                        <div class="ml-4">
+                            <h3 class="text-lg leading-6 font-medium text-gray-900">
+                                Lingkungan
+                            </h3>
+                            <p class="mt-2 text-base text-gray-500">
+                                Kolaborad berpartisipasi dalam program penghijauan dan kampanye untuk
+                                pengurangan sampah elektronik.
+                            </p>
                         </div>
+                    </div>
+
+                    <!-- Misi 3 -->
+                    <div class="flex">
+                        <div class="flex-shrink-0">
+                            <div
+                                class="flex items-center justify-center h-12 w-12 rounded-full bg-blue-500 text-white">
+                                2
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-lg leading-6 font-medium text-gray-900">
+                                Pemberdayaan UMKM
+                            </h3>
+                            <p class="mt-2 text-base text-gray-500">
+                                Memberikan konsultasi gratis kepada UMKM untuk membantu mereka mengadopsi
+                                teknologi digital dalam bisnis mereka.
+                            </p>
+                        </div>
+                    </div>
+
+
                     </div>
                 </div>
 
