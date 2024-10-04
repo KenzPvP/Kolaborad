@@ -44,9 +44,9 @@
                             Kolaborad adalah perusahaan konsultan bisnis yang didirikan dengan misi membantu UMKM dan Startup
                             dalam mengembangkan serta memajukan bisnis mereka. Kami percaya bahwa kolaborasi adalah kunci untuk
                              meraih kesuksesan yang berkelanjutan, dan dengan tagline "Your Business Collaboration Partner", kami
-                             berkomitmen menjadi mitra terbaik bagi setiap bisnis yang ingin berkembang.
-                             <br>
-                             <br>
+                            berkomitmen menjadi mitra terbaik bagi setiap bisnis yang ingin berkembang.
+                            <br>
+                            <br>
                              Melalui pendekatan yang personal dan analitis, kami membantu klien menemukan solusi yang tepat untuk mengoptimalkan operasi, meningkatkan penjualan, memperkuat pemasaran, dan memperbaiki manajemen keuangan mereka. Kolaborad hadir untuk membantu klien menghadapi berbagai tantangan bisnis, baik dari segi strategi, teknologi, hingga implementasi.
 
                         </p>
@@ -259,7 +259,7 @@
                                 </p>
                             </div>
 
-                    </div>
+                        </div>
 
                         <!-- Card 2 -->
                         <div class="max-w-sm rounded overflow-hidden shadow-lg">
@@ -281,7 +281,7 @@
                                 </p>
                             </div>
 
-                    </div>
+                        </div>
 
                         <!-- Card 3 -->
                         <div class="max-w-sm rounded overflow-hidden shadow-lg">
@@ -320,30 +320,32 @@
                                 <div class="font-bold text-xl text-center mb-2">Agility</div>
                                 <p class="text-gray-700 text-center">
                                     Kami memahami dinamika dunia bisnis yang cepat berubah dan siap untuk beradaptasi
-                                dan bergerak cepat demi keberhasilan klien.
+                                    dan bergerak cepat demi keberhasilan klien.
 
                                 </p>
                             </div>
 
-                    </div>
-                    <!-- Card 5 -->
-                    <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                        <div class="flex flex-row justify-center items-center self-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em"
-                                viewBox="0 0 32 32">
-                                <path fill="#4993eb"
-                                    d="M30 6V4h-3V2h-2v2h-1c-1.103 0-2 .898-2 2v2c0 1.103.897 2 2 2h4v2h-6v2h3v2h2v-2h1c1.103 0 2-.897 2-2v-2c0-1.102-.897-2-2-2h-4V6zm-6 14v2h2.586L23 25.586l-2.292-2.293a1 1 0 0 0-.706-.293H20a1 1 0 0 0-.706.293L14 28.586L15.414 30l4.587-4.586l2.292 2.293a1 1 0 0 0 1.414 0L28 23.414V26h2v-6zM4 30H2v-5c0-3.86 3.14-7 7-7h6c1.989 0 3.89.85 5.217 2.333l-1.49 1.334A5 5 0 0 0 15 20H9c-2.757 0-5 2.243-5 5zm8-14a7 7 0 1 0 0-14a7 7 0 0 0 0 14m0-12a5 5 0 1 1 0 10a5 5 0 0 1 0-10" />
-                            </svg>
                         </div>
-                        <div class="px-6 py-4">
-                            <div class="font-bold text-xl text-center mb-2">Quality</div>
-                            <p class="text-gray-700 text-center">
-                                Kami berkomitmen untuk memberikan solusi dengan kualitas terbaik yang terukur dan
-                                berfokus pada hasil yang nyata.
+                        <!-- Card 5 -->
+                        <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                            <div class="flex flex-row justify-center items-center self-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em"
+                                    viewBox="0 0 32 32">
+                                    <path fill="#4993eb"
+                                        d="M30 6V4h-3V2h-2v2h-1c-1.103 0-2 .898-2 2v2c0 1.103.897 2 2 2h4v2h-6v2h3v2h2v-2h1c1.103 0 2-.897 2-2v-2c0-1.102-.897-2-2-2h-4V6zm-6 14v2h2.586L23 25.586l-2.292-2.293a1 1 0 0 0-.706-.293H20a1 1 0 0 0-.706.293L14 28.586L15.414 30l4.587-4.586l2.292 2.293a1 1 0 0 0 1.414 0L28 23.414V26h2v-6zM4 30H2v-5c0-3.86 3.14-7 7-7h6c1.989 0 3.89.85 5.217 2.333l-1.49 1.334A5 5 0 0 0 15 20H9c-2.757 0-5 2.243-5 5zm8-14a7 7 0 1 0 0-14a7 7 0 0 0 0 14m0-12a5 5 0 1 1 0 10a5 5 0 0 1 0-10" />
+                                </svg>
+                            </div>
+                            <div class="px-6 py-4">
+                                <div class="font-bold text-xl text-center mb-2">Quality</div>
+                                <p class="text-gray-700 text-center">
+                                    Kami berkomitmen untuk memberikan solusi dengan kualitas terbaik yang terukur dan
+                                    berfokus pada hasil yang nyata.
 
-                            </p>
+                                </p>
+                            </div>
+
+
                         </div>
-
 
                     </div>
                     <div class="text-start">
@@ -368,43 +370,43 @@
                                 </div>
                             </div>
 
-                        <!-- Misi 2 -->
-                        <div class="flex">
-                            <div class="flex-shrink-0">
-                                <div
-                                    class="flex items-center justify-center h-12 w-12 rounded-full bg-blue-500 text-white">
-                                    3
+                            <!-- Misi 2 -->
+                            <div class="flex">
+                                <div class="flex-shrink-0">
+                                    <div
+                                        class="flex items-center justify-center h-12 w-12 rounded-full bg-blue-500 text-white">
+                                        3
+                                    </div>
+                                </div>
+                                <div class="ml-4">
+                                    <h3 class="text-lg leading-6 font-medium text-gray-900">
+                                        Lingkungan
+                                    </h3>
+                                    <p class="mt-2 text-base text-gray-500">
+                                        Kolaborad berpartisipasi dalam program penghijauan dan kampanye untuk
+                                        pengurangan sampah elektronik.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="ml-4">
-                                <h3 class="text-lg leading-6 font-medium text-gray-900">
-                                    Lingkungan
-                                </h3>
-                                <p class="mt-2 text-base text-gray-500">
-                                    Kolaborad berpartisipasi dalam program penghijauan dan kampanye untuk
-                                    pengurangan sampah elektronik.
-                                </p>
-                            </div>
-                        </div>
 
-                        <!-- Misi 3 -->
-                        <div class="flex">
-                            <div class="flex-shrink-0">
-                                <div
-                                    class="flex items-center justify-center h-12 w-12 rounded-full bg-blue-500 text-white">
-                                    2
+                            <!-- Misi 3 -->
+                            <div class="flex">
+                                <div class="flex-shrink-0">
+                                    <div
+                                        class="flex items-center justify-center h-12 w-12 rounded-full bg-blue-500 text-white">
+                                        2
+                                    </div>
+                                </div>
+                                <div class="ml-4">
+                                    <h3 class="text-lg leading-6 font-medium text-gray-900">
+                                        Pemberdayaan UMKM
+                                    </h3>
+                                    <p class="mt-2 text-base text-gray-500">
+                                        Memberikan konsultasi gratis kepada UMKM untuk membantu mereka mengadopsi
+                                        teknologi digital dalam bisnis mereka.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="ml-4">
-                                <h3 class="text-lg leading-6 font-medium text-gray-900">
-                                    Pemberdayaan UMKM
-                                </h3>
-                                <p class="mt-2 text-base text-gray-500">
-                                    Memberikan konsultasi gratis kepada UMKM untuk membantu mereka mengadopsi
-                                    teknologi digital dalam bisnis mereka.
-                                </p>
-                            </div>
-                        </div>
 
 
                         </div>
