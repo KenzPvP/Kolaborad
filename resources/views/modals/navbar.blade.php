@@ -1,5 +1,5 @@
 <!-- Navbar Header (Desktop and Mobile) -->
-<header id="navbar" class="bg-transparent px-4 md:px-24 fixed w-full z-50 transition-all duration-300">
+<header id="nav" class="bg-transparent px-4 md:px-24 fixed w-full z-50 transition-all duration-300">
     <div class="container mx-auto px-4 py-3 flex justify-between items-center">
         <!-- Logo (Desktop & Mobile) -->
         <div>
@@ -82,7 +82,7 @@
 
     // Scroll effect for desktop
     window.addEventListener('scroll', function() {
-        const navbar = document.getElementById('navbar');
+        const navbar = document.getElementById('nav');
         const logo = document.getElementById('navbar-logo');
         const navbarLinks = document.querySelectorAll('#navbar-links a');
         const contactButton = document.getElementById('contact-button');
