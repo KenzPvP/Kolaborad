@@ -43,6 +43,14 @@ Route::get('/privacypolicy', function () {
     return view('pages.privacyPolicy_page');
 });
 
-Route::get('service', function(){
+Route::get('terms', function(){
+    return view('pages.terms_page');
+});
+
+Route::get('/service', function(){
     return view('pages.service_page');
 })->name('service_page');
+
+Route::get('/service_b2b', function(){
+    return view('pages.service_b2b_page');
+})->name('service_b2b_page');

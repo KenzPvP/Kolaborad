@@ -54,7 +54,7 @@
                             <a href="/privacypolicy" class="hover:underline">Privacy Policy</a>
                         </li>
                         <li>
-                            <a href="#" class="hover:underline">Terms & Conditions</a>
+                            <a href="/terms" class="hover:underline">Terms & Conditions</a>
                         </li>
                     </ul>
                 </div>
