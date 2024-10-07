@@ -39,7 +39,7 @@
         <!-- Client Section -->
         <section class="py-12">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 class="text-3xl font-bold text-gray-800 text-center mb-10">Kolaborasi Klien</h2>
+                <h2 class="text-3xl font-bold text-[#4993EB] text-center mb-10">Kolaborasi Klien</h2>
 
                 <!-- Infinite scrolling container -->
                 <div class="scroll-container overflow-hidden relative">

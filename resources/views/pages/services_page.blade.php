@@ -35,7 +35,7 @@
 
 
 
-        <div class="flex flex-col md:flex-row py-10 bg-gradient-to-r from-[#4993EB] to-[#3065BC]">
+        <div class="flex flex-col md:flex-row py-10 bg-gradient-to-r from-[#1d75bd] to-[#125f97]">
             <!-- Left section with text -->
             <div class="w-full md:w-1/2 flex justify-center p-10">
                 <div class="text-start flex flex-col gap-8">

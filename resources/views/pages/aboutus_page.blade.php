@@ -97,7 +97,7 @@
                 <div class="mt-10">
                     <p class="text-lg font-semibold text-gray-700">Visi:</p>
                     <p class="mt-4 text-xl text-gray-500">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vulputate orci a est sollicitudin, ac convallis ante ornare. Sed imperdiet magna pulvinar mattis porta. Ut et luctus est, in suscipit libero. Suspendisse euismod metus sed fermentum congue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean tempor turpis ipsum, vitae auctor nibh gravida sit amet. Ut neque arcu, feugiat a faucibus eget, maximus eget felis. Ut lacinia velit sed sapien lacinia cursus.
+                        Menjadi mitra utama bagi UMKM dan Startup dalam mengembangkan potensi bisnisnya melalui kolaborasi strategis dan berkelanjutan, sehingga mampu berkontribusi secara signifikan dalam pertumbuhan ekonomi dan kemajuan teknologi di Indonesia.
                     </p>
                 </div>
                 <!-- Misi Section -->
@@ -211,7 +211,7 @@
 
         <div class="flex flex-col justify-between gap-4">
             <div class="relative min-h-screen bg-no-repeat bg-cover bg-center p-20"
-                style="background-image: url('images/Rectangle_about.png'); ">
+                style="background-image: url('images/Rectangle_about2.png'); ">
                 <div class="flex flex-row items-center justify-between h-full">
                     <div class="flex justify-center items-center w-full h-screen md:w-1/2">
                         <img src="images/value.png" alt="Value Image" class="mx-auto">

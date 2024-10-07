@@ -9,7 +9,7 @@
     @vite('resources/css/app.css')
 </head>
 
-<body class="font-family-karla flex flex-col">
+<body class="font-family-karla flex flex-col bg-gradient-to-r from-[#1d75bd] to-[#125f97]">
 
     @include('modals.navbar')
 

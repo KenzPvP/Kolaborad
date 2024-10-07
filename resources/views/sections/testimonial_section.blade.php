@@ -37,8 +37,8 @@
         </div>
     </div>
 
-    <div class="flex flex-col w-full p-32 py-36 bg-gradient-to-r from-[#4993EB] to-[#3065BC]">
-        <h2 class="text-center text-2xl font-semibold text-white mb-12">Testimoni</h2>
+    <div class="flex flex-col w-full p-32 py-36 bg-gradient-to-r from-[#1d75bd] to-[#125f97]">
+        <h2 class="text-center text-2xl font-semibold text-[#f9f4ca] mb-12">Testimoni</h2>
 
 
         <!-- Team Section -->
@@ -113,7 +113,7 @@
     <!-- Client Section -->
     <section class="py-12">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-bold text-gray-800 text-center mb-10">Kolaborasi Klien</h2>
+            <h2 class="text-3xl font-bold text-[#4993EB] text-center mb-10">Kolaborasi Klien</h2>
 
             <!-- Infinite scrolling container -->
             <div class="scroll-container overflow-hidden relative">
