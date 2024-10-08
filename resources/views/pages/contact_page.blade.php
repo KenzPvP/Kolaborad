@@ -31,12 +31,12 @@
 
         </div>
 
-        <div class="flex flex-col gap-16 bg-gradient-to-r from-[#4993EB] to-[#3065BC]">
-            <div class="mt-6 max-w-6xl max-lg:max-w-3xl mx-auto bg-[#FFFFFF] rounded-lg">
+        <div class="flex flex-col gap-16">
+            <div class="mt-6 max-w-6xl max-lg:max-w-3xl mx-auto bg-gradient-to-r from-[#4993EB] to-[#3065BC] rounded-lg">
                 <div class="grid lg:grid-cols-2 items-center gap-14 sm:p-8 p-4 font-[sans-serif]">
                     <div>
-                        <h1 class="text-4xl font-bold text-gray-700">Hubungi kami!</h1>
-                        <p class="text-sm text-gray-500 mt-4 leading-relaxed">Punya ide atau merek besar untuk dikembangkan dan butuh bantuan? Kemudian hubungi kami, kami ingin mendengar tentang proyek Anda dan memberikan bantuan.</p>
+                        <h1 class="text-4xl font-bold text-white">Hubungi kami!</h1>
+                        <p class="text-sm text-gray-300 mt-4 leading-relaxed">Punya ide atau merek besar untuk dikembangkan dan butuh bantuan? Kemudian hubungi kami, kami ingin mendengar tentang proyek Anda dan memberikan bantuan.</p>
 
                         <ul class="mt-12 space-y-8">
                             <li class="flex items-center">

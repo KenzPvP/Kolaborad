@@ -39,7 +39,7 @@
         <!-- Client Section -->
         <section class="py-12">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 class="text-3xl font-bold text-[#4993EB] text-center mb-10">Kolaborasi Klien</h2>
+                <h2 class="text-3xl font-bold text-gray-800 text-center mb-10">Kolaborasi Klien</h2>
 
                 <!-- Infinite scrolling container -->
                 <div class="scroll-container overflow-hidden relative">
@@ -139,7 +139,7 @@
                     </div>
                 </div>
             </div>
-            <div id="testimonial" class="flex flex-col gap-10">
+            <div class="flex flex-col gap-10">
                 <hr class="h-px my-8 border-0 bg-blue-400">
                 <!-- Header Section -->
                 <div class="text-center mb-12">

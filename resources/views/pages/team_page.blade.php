@@ -37,15 +37,15 @@
 
 
         <div
-            class="flex flex-col items-center justify-center md:flex-row py-10 bg-gradient-to-r from-[#1d75bd] to-[#125f97]">
+            class="flex flex-col items-center justify-center md:flex-row py-10 bg-gradient-to-r from-[#4993EB] to-[#3065BC]">
             <!-- Left section with text -->
             <div class="w-full md:w-1/2 flex justify-center p-20">
                 <div class="text-start flex flex-col gap-8">
-                    <h2 class="text-2xl text-white font-semibold">Tim kami</h2>
+                    <h2 class="text-2xl text-white font-semibold tracking-wide uppercase">Tim kami</h2>
                     <p class="text-xl text-white">
                         Kolaborad didirikan oleh para profesional yang memiliki<br> pengalaman bertahun-tahun dalam
                         dunia IT dan<br> manajemen. Kami bekerja sama untuk memberikan solusi<br> terbaik bagi
-                        klien, dengan fokus pada inovasi, kolaborasi, dan hasil yang nyata
+                        klien, dengan fokus pada inovasi, kolaborasi, dan hasil yang nyata.
                     </p>
                 </div>
             </div>

@@ -1,4 +1,4 @@
-<section class="bg-gradient-to-r from-[#1d75bd] to-[#125f97]">
+<section class="bg-gradient-to-r from-[#4993EB] to-blue-600 ">
 
     <div class="relative h-screen bg-cover bg-center" style="background-image: url('images/blogs.jpg');">
         <!-- Overlay for darkening the background image -->
@@ -20,7 +20,7 @@
     <div class="relative min-h-96 bg-no-repeat bg-cover bg-center"
         style="background-image: url('images/Polygon.png'); ">
         <div class="flex flex-col justify-center items-center w-full py-36">
-            <h2 class="text-center text-2xl font-semibold text-[#f9f4ca] mb-12">Blogs</h2>
+            <h2 class="text-center text-2xl font-semibold text-white mb-12">Blogs</h2>
             <div
                 class="container justify-center items-center p-32 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
                 <!-- Card 1 -->

@@ -19,26 +19,28 @@
 
 
 
-    <div class="py-36 bg-gradient-to-r from-[#1d75bd] to-[#125f97]">
+    <div class="py-36 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <!-- Section Title -->
             <div class="text-start">
-                <h2 class="text-2xl text-[#f9f4ca] font-semibold tracking-wide uppercase">Tentang Kami</h2>
-                <p class="mt-4 text-xl text-white">
+                <h2 class="text-2xl text-[#4993EB] font-semibold tracking-wide uppercase">Tentang Kami</h2>
+                <p class="mt-4 text-xl text-gray-500">
                     Kolaborad adalah perusahaan konsultan bisnis yang didirikan dengan misi membantu UMKM dan Startup
                     dalam mengembangkan serta memajukan bisnis mereka. Kami percaya bahwa kolaborasi adalah kunci untuk
                     meraih kesuksesan yang berkelanjutan, dan dengan tagline "Your Business Collaboration Partner", kami
                     berkomitmen menjadi mitra terbaik bagi setiap bisnis yang ingin berkembang.
-                    <br>
-                    <br>
-                    Melalui pendekatan yang personal dan analitis, kami membantu klien menemukan solusi yang tepat untuk mengoptimalkan operasi, meningkatkan penjualan, memperkuat pemasaran, dan memperbaiki manajemen keuangan mereka. Kolaborad hadir untuk membantu klien menghadapi berbagai tantangan bisnis, baik dari segi strategi, teknologi, hingga implementasi.
 
+                    <br>
+                    <br>
+                     Melalui pendekatan yang personal dan analitis, kami membantu klien menemukan solusi yang tepat untuk mengoptimalkan operasi,
+                     meningkatkan penjualan, memperkuat pemasaran, dan memperbaiki manajemen keuangan mereka. Kolaborad hadir untuk membantu klien 
+                     menghadapi berbagai tantangan bisnis, baik dari segi strategi, teknologi, hingga implementasi.
                 </p>
             </div>
 
             <div class="mt-10">
-                <p class="text-lg font-semibold text-white">Visi:</p>
-                <p class="mt-4 text-xl text-white">
+                <p class="text-lg font-semibold text-gray-700">Visi:</p>
+                <p class="mt-4 text-xl text-gray-500">
                     Menjadi mitra utama bagi UMKM dan Startup dalam mengembangkan potensi bisnisnya melalui kolaborasi
                     strategis dan berkelanjutan, sehingga mampu berkontribusi secara signifikan dalam pertumbuhan
                     ekonomi dan kemajuan teknologi di Indonesia.
@@ -47,7 +49,7 @@
             </div>
             <!-- Misi Section -->
             <div class="mt-10">
-                <p class="text-lg font-semibold text-white">Misi:</p>
+                <p class="text-lg font-semibold text-gray-700">Misi:</p>
                 <div class="mt-6 grid grid-cols-1 gap-y-10 md:grid-cols-2 md:gap-x-8">
                     <!-- Misi 1 -->
                     <div class="flex">
@@ -57,10 +59,10 @@
                             </div>
                         </div>
                         <div class="ml-4">
-                            <h3 class="text-lg leading-6 font-medium text-[#f9f4ca]">
+                            <h3 class="text-lg leading-6 font-medium text-gray-900">
                                 Memberikan Solusi Berkualitas
                             </h3>
-                            <p class="mt-2 text-base text-white">
+                            <p class="mt-2 text-base text-gray-500">
                                 Memberikan solusi bisnis yang inovatif dan praktis untuk UMKM dan Startup
                                 melalui pendekatan berbasis kolaborasi.
 
@@ -76,10 +78,10 @@
                             </div>
                         </div>
                         <div class="ml-4">
-                            <h3 class="text-lg leading-6 font-medium text-[#f9f4ca]">
+                            <h3 class="text-lg leading-6 font-medium text-gray-900">
                                 Mendorong Transformasi Digital
                             </h3>
-                            <p class="mt-2 text-base text-white">
+                            <p class="mt-2 text-base text-gray-500">
                                 Memfasilitasi pelatihan dan konsultasi yang dapat diakses sesuai kebutuhan
                                 setiap perusahaan, dengan fokus pada pengembangan pemasaran,
                                 penjualan, keuangan, dan teknologi.
@@ -96,10 +98,10 @@
                             </div>
                         </div>
                         <div class="ml-4">
-                            <h3 class="text-lg leading-6 font-medium text-[#f9f4ca]">
+                            <h3 class="text-lg leading-6 font-medium text-gray-900">
                                 Mengembangkan Potensi SDM
                             </h3>
-                            <p class="mt-2 text-base text-white">
+                            <p class="mt-2 text-base text-gray-500">
                                 Mengembangkan ekosistem yang mendukung pertumbuhan berkelanjutan
                                 bagi para pelaku bisnis melalui pembinaan yang berkelanjutan dan komprehensif.
 
@@ -115,10 +117,10 @@
                             </div>
                         </div>
                         <div class="ml-4">
-                            <h3 class="text-lg leading-6 font-medium text-[#f9f4ca]">
+                            <h3 class="text-lg leading-6 font-medium text-gray-900">
                                 Menyediakan Konsultasi Berbasis Data
                             </h3>
-                            <p class="mt-2 text-base text-white">
+                            <p class="mt-2 text-base text-gray-500">
                                 Membangun hubungan jangka panjang yang saling menguntungkan antara para
                                 pelaku UMKM, Startup, dan para ahli di Kolaborad.
 
@@ -133,10 +135,10 @@
                             </div>
                         </div>
                         <div class="ml-4">
-                            <h3 class="text-lg leading-6 font-medium text-[#f9f4ca]">
+                            <h3 class="text-lg leading-6 font-medium text-gray-900">
                                 Meningkatkan kualitas persaingan
                             </h3>
-                            <p class="mt-2 text-base text-white">
+                            <p class="mt-2 text-base text-gray-500">
                                 Meningkatkan daya saing perusahaan klien melalui penggunaan teknologi terbaru
                                 dan strategi manajemen yang tepat.
 
@@ -147,22 +149,19 @@
                 </div>
             </div>
         </div>
-        
     </div>
-
-
 
 
     <div class="flex flex-col justify-between gap-4">
         <div class="relative min-h-screen bg-no-repeat bg-cover bg-center p-20"
-            style="background-image: url('images/Rectangle_about2.png'); ">
+            style="background-image: url('images/Rectangle_about.png'); ">
             <div class="flex flex-row items-center justify-between h-full">
                 <div class="flex justify-center items-center w-full h-screen md:w-1/2">
                     <img src="images/value.png" alt="Value Image" class="mx-auto">
                 </div>
 
                 <div class="flex flex-col text-end w-full md:w-1/2 gap-5">
-                    <h2 class="text-xl md:text-2xl text-[#f9f4ca] font-semibold tracking-wide uppercase">Nilai-Nilai Utama
+                    <h2 class="text-xl md:text-2xl text-white font-semibold tracking-wide uppercase">Nilai-Nilai Utama
                     </h2>
                     <p class="text-sm md:text-xl text-white">
                         Prinsip dari Kolaborad sebagai perusahaan IT konsultan adalah untuk memberikan solusi teknologi
@@ -262,7 +261,6 @@
                             <p class="text-gray-700 text-center">
                                 Kami memahami dinamika dunia bisnis yang cepat berubah dan siap untuk beradaptasi
                                 dan bergerak cepat demi keberhasilan klien.
-
 
                             </p>
                         </div>

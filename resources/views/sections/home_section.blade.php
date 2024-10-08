@@ -1,6 +1,6 @@
 <!-- home section -->
 
-<section class="flex flex-col md:flex-row h-screen w-full bg-gradient-to-r from-[#1d75bd] to-[#125f97] shrink-0">
+<section class="flex flex-col md:flex-row h-screen w-full bg-gradient-to-r from-[#4993EB] to-[#3065BC] shrink-0">
     <!-- Bagian kiri dengan background gradient -->
     <div class="relative w-full md:w-1/2 p-24 md:p-32 flex flex-col justify-center text-white bg-cover bg-center"
         style="background-image: url('images/consultant.jpg');">
