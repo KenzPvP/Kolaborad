@@ -45,7 +45,7 @@
                     <p class="text-xl text-white">
                         Kolaborad didirikan oleh para profesional yang memiliki<br> pengalaman bertahun-tahun dalam
                         dunia IT dan<br> manajemen. Kami bekerja sama untuk memberikan solusi<br> terbaik bagi
-                        klien, dengan fokus pada inovasi, kolaborasi, dan hasil yang nyata
+                        klien, dengan fokus pada inovasi, kolaborasi, dan hasil yang nyata.
                     </p>
                 </div>
             </div>
