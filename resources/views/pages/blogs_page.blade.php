@@ -9,7 +9,7 @@
     @vite('resources/css/app.css')
 </head>
 
-<body class="font-family-karla flex flex-col">
+<body class="font-family-karla flex flex-col bg-gradient-to-r from-[#1d75bd] to-[#125f97]">
 
     @include('modals.navbar')
 
@@ -56,7 +56,7 @@
                             This is a short excerpt from the blog to give readers an idea of the content.
                         </p>
                         <div class="flex justify-between items-center mt-4">
-                            <a href="#" class="text-blue-500 hover:text-blue-600 font-medium">Read More</a>
+                            <a href="/article" class="text-blue-500 hover:text-blue-600 font-medium">Read More</a>
                             <span class="text-gray-400 text-sm">September 13, 2024</span>
                         </div>
                     </div>
