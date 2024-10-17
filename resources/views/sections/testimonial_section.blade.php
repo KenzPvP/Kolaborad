@@ -43,65 +43,15 @@
 
         <!-- Team Section -->
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            <!-- Card 1 -->
+            @foreach($data as $testimoni)
             <div class="bg-white rounded-lg shadow-lg p-6 text-center">
-                <img class="w-24 h-24 rounded-full mx-auto" src="https://via.placeholder.com/150"
+                <img class="w-24 h-24 rounded-full mx-auto" src="{{ asset($testimoni->image) }}"
                     alt="Member 1">
-                <h2 class="text-2xl font-semibold mt-4 text-gray-800">John Doe</h2>
-                <p class="text-gray-500 mt-2">CEO & Founder</p>
-                <p class="mt-4 text-gray-600">John adalah pendiri Kolaborad, dengan visi untuk menciptakan
-                    solusi inovatif bagi bisnis di era digital.</p>
+                <h2 class="text-2xl font-semibold mt-4 text-gray-800">{{ $testimoni->name }}</h2>
+                <p class="text-gray-500 mt-2">{{ $testimoni->company }}</p>
+                <p class="mt-4 text-gray-600">{{$testimoni->description}}</p>
             </div>
-
-            <!-- Card 2 -->
-            <div class="bg-white rounded-lg shadow-lg p-6 text-center">
-                <img class="w-24 h-24 rounded-full mx-auto" src="https://via.placeholder.com/150"
-                    alt="Member 2">
-                <h2 class="text-2xl font-semibold mt-4 text-gray-800">Jane Smith</h2>
-                <p class="text-gray-500 mt-2">Chief Technology Officer</p>
-                <p class="mt-4 text-gray-600">Jane adalah CTO yang memimpin pengembangan teknologi inovatif dan
-                    solusi IT di Kolaborad.</p>
-            </div>
-
-            <!-- Card 3 -->
-            <div class="bg-white rounded-lg shadow-lg p-6 text-center">
-                <img class="w-24 h-24 rounded-full mx-auto" src="https://via.placeholder.com/150"
-                    alt="Member 3">
-                <h2 class="text-2xl font-semibold mt-4 text-gray-800">Michael Brown</h2>
-                <p class="text-gray-500 mt-2">Head of Marketing</p>
-                <p class="mt-4 text-gray-600">Michael memimpin tim pemasaran dengan strategi yang inovatif untuk
-                    meningkatkan brand awareness.</p>
-            </div>
-
-            <!-- Card 4 -->
-            <div class="bg-white rounded-lg shadow-lg p-6 text-center">
-                <img class="w-24 h-24 rounded-full mx-auto" src="https://via.placeholder.com/150"
-                    alt="Member 4">
-                <h2 class="text-2xl font-semibold mt-4 text-gray-800">Emily Davis</h2>
-                <p class="text-gray-500 mt-2">Project Manager</p>
-                <p class="mt-4 text-gray-600">Emily memastikan setiap proyek dijalankan dengan efisien dan
-                    mencapai hasil terbaik untuk klien.</p>
-            </div>
-
-            <!-- Card 5 -->
-            <div class="bg-white rounded-lg shadow-lg p-6 text-center">
-                <img class="w-24 h-24 rounded-full mx-auto" src="https://via.placeholder.com/150"
-                    alt="Member 5">
-                <h2 class="text-2xl font-semibold mt-4 text-gray-800">David Lee</h2>
-                <p class="text-gray-500 mt-2">Lead Designer</p>
-                <p class="mt-4 text-gray-600">David adalah desainer utama yang bertanggung jawab untuk
-                    menciptakan solusi desain kreatif untuk klien kami.</p>
-            </div>
-
-            <!-- Card 6 -->
-            <div class="bg-white rounded-lg shadow-lg p-6 text-center">
-                <img class="w-24 h-24 rounded-full mx-auto" src="https://via.placeholder.com/150"
-                    alt="Member 6">
-                <h2 class="text-2xl font-semibold mt-4 text-gray-800">Sophia Martinez</h2>
-                <p class="text-gray-500 mt-2">Software Engineer</p>
-                <p class="mt-4 text-gray-600">Sophia adalah insinyur perangkat lunak yang berfokus pada
-                    pengembangan aplikasi yang efisien dan inovatif.</p>
-            </div>
+            @endforeach
         </div>
 
 

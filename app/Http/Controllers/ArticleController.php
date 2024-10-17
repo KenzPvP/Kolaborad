@@ -10,17 +10,29 @@ use RealRashid\SweetAlert\Facades\Alert;
 class ArticleController extends Controller
 {
 
-    public function create(){
-        return view('article.add');
+    public function view($id){
+        $data = Article::where('id', $id)->get();
+        $more = Article::inRandomOrder()->take(2)->get();
+        return view('pages.article_page', compact('data', 'more'));
     }
 
     public function store(Request $request)
     {
         $data = $request->validate([
             'title' => 'Required|string',
+            'penulis' => 'Required|string',
+            'image' => 'required|image|mimes:jpeg,png,jpg,gif',
             'description' => 'Required',
             'category_id' => 'required|integer|exists:categories,id',
         ]);
+
+        if ($request->hasFile('image')) {
+            $image = $request->file('image');
+            $imageName = time() . '.' . $image->getClientOriginalExtension();
+            $image->move(public_path('storage/image'), $imageName);
+            
+            $data['image'] = 'storage/image/' . $imageName;
+        }
 
         $data['upload'] = now();
 
@@ -50,21 +62,25 @@ class ArticleController extends Controller
 
     public function update(Request $request, $id)
 {
-    $request->validate([
+    $data = $request->validate([
         'title' => 'Required|string',
+        'penulis' => 'Required|string',
         'description' => 'Required',
         'category_id' => 'required|integer|exists:categories,id',
+        'image' => 'nullable|image|mimes:jpeg,png,jpg,gif', 
     ]);
 
-    $data = [
-        'title' => $request->title,
-        'description' => $request->description,
-        'category_id' => $request->category_id,
-    ];
+    if ($request->hasFile('image')) {
+        $image = $request->file('image');
+        $imageName = time() . '.' . $image->getClientOriginalExtension();
+        $image->move(public_path('storage/image'), $imageName);
+        
+        $data['image'] = 'storage/image/' . $imageName;
+    }
 
-    $article = Article::findOrFail($id);
+    $request = Article::findOrFail($id);
 
-    if($article->update($data)) {
+    if($request->update($data)) {
         Alert::success('Hore!', 'Data Berhasil di Update');
         return redirect()->route('article-list')->with('success', 'Update is successful');
     } else {
@@ -79,6 +95,11 @@ public function delete($id)
     $article = Article::find($id);
 
     if ($article) {
+        // Hapus gambar jika ada
+        if ($article->image && file_exists(public_path($article->image))) {
+            unlink(public_path($article->image));
+        }
+
         $article->delete();
 
         Alert::success('Hore!', 'Data Berhasil di Hapus');

@@ -9,6 +9,10 @@ use RealRashid\SweetAlert\Facades\Alert;
 
 class TeamController extends Controller
 {
+    public function view(){
+        $data = Team::get();
+        return view('pages.team_page', compact('data'));
+    }
     public function create(){
         return view('team.add');
     }
@@ -34,7 +38,7 @@ class TeamController extends Controller
             $imageName = time() . '.' . $image->getClientOriginalExtension();
             $image->move(public_path('storage/image'), $imageName);
             
-            $data['image'] = 'storage/image/' . $imageName;
+            $data['image'] = 'storage/image' . $imageName;
         }
     
         if($data){

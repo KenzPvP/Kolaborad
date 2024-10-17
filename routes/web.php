@@ -17,7 +17,7 @@ Route::get('/dashboard', function () {
 Route::middleware(['auth', 'OnlyAdmin:Admin,SuperAdmin'])->group(function () {
 
     Route::get('/category/update/list', [CategoryController::class, 'articleUpdate'])->name('artigory-tambah');
-    Route::get('/category/add/list', [CategoryController::class, 'articleTambah'])->name('artigory-update');
+    // Route::get('/category/add/list', [CategoryController::class, 'articleTambah'])->name('artigory-update');
     Route::get('/category/list', [CategoryController::class, 'index'])->name('category-list');
     Route::get('/category/create', [CategoryController::class, 'create'])->name('category-create');
     Route::post('/category/store', [CategoryController::class, 'store'])->name('category-store');
@@ -71,9 +71,7 @@ Route::group(['prefix' => 'laravel-filemanager', 'middleware' => ['web', 'auth']
 
 require __DIR__.'/auth.php';
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', [ClientController::class, 'section'])->name('home');
 
 Route::get('/home2', function () {
     return view('sections.home_section2');
@@ -87,21 +85,15 @@ Route::get('/aboutUs', function () {
     return view('pages.aboutus_page');
 });
 
-Route::get('/team', function () {
-    return view('pages.team_page');
-});
+Route::get('/team', [TeamController::class, 'view'])->name('Team-view');
 
-Route::get('/client', function () {
-    return view('pages.client_page');
-});
+Route::get('/client', [ClientController::class, 'view'])->name('Client-view');
 
-Route::get('/article', function () {
-    return view('pages.article_page');
-});
+Route::get('/blogs', [CategoryController::class, 'view'])->name('Articles-view');
 
-Route::get('/blogs', function () {
-    return view('pages.blogs_page');
-});
+Route::get('/blog', [CategoryController::class, 'bycat'])->name('Article-view');
+
+Route::get('/article/{id}', [ArticleController::class, 'view'])->name('Article-Overview');
 
 Route::get('/contact', function () {
     return view('pages.contact_page');
@@ -111,7 +103,7 @@ Route::get('/privacypolicy', function () {
     return view('pages.privacyPolicy_page');
 });
 
-Route::get('terms', function(){
+Route::get('/terms', function(){
     return view('pages.terms_page');
 });
 

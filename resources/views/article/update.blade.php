@@ -25,6 +25,12 @@
                             <x-text-input id="title" class="block mt-1 w-full" type="text" name="title" :value="old('title', $article->title)" /> 
                             <x-input-error :messages="$errors->get('title')" class="mt-2" />
                         </div>
+
+                        <div class="mb-5">
+                            <x-input-label for="penulis" :value="__('Penulis')" />
+                            <x-text-input id="penulis" class="block mt-1 w-full" type="text" name="penulis" :value="old('penulis', $article->penulis)" />
+                            <x-input-error :messages="$errors->get('penulis')" class="mt-2" />
+                        </div>
                         
                         <div class="mb-5">
                             <x-input-label for="category" :value="__('Kategori')" />

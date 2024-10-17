@@ -2,12 +2,34 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Article;
 use App\Models\Category;
 use Illuminate\Http\Request;
 use RealRashid\SweetAlert\Facades\Alert;
 
 class CategoryController extends Controller
 {
+
+    public function bycat($id)
+    {
+        $category = Category::find($id);
+        $cat = Category::get();
+        
+        if ($category) {
+            $articles = Article::where('category_id', $id)->get();
+        } else {
+            $articles = [];
+        }
+        
+        return view('pages.blogs2_page', compact('category', 'articles', 'cat'));
+    }
+    public function view()
+    {
+        $categories = Category::all();
+        $articles = Article::all();
+
+        return view('pages.blogs_page', compact('categories', 'articles'));
+    }
 
     public function create(){
         return view('category.add');

@@ -15,7 +15,7 @@
         <div class="container mx-auto px-4 py-3 flex justify-between items-center">
             <!-- Logo -->
             <div>
-                <img src="images/Logo_kolaborad.png" alt="Logo Kolaborad" class="h-12">
+                <img src="{{ asset('images/Logo_kolaborad.png') }}" alt="Logo Kolaborad" class="h-12">
             </div>
     
             <!-- Navbar Links (Desktop) -->
@@ -82,48 +82,29 @@
     <div class="container mx-auto px-4 py-10">
         <div class="flex flex-col lg:flex-row gap-8">
             <!-- Article Section -->
+            @foreach($data as $article)
             <article class="w-full lg:w-2/3 bg-white p-10 lg:p-20 rounded-lg shadow-lg">
-                <h2 class="text-4xl font-bold mb-6 text-[#4993EB]">Judul Artikel</h2>
-                <p class="text-gray-600 mb-4">Penulis: <strong class="text-[#4993EB]">Nama Penulis</strong> | Tanggal: 13 September 2024</p>
-                <img src="images/blogs.jpg" alt="Gambar Artikel" class="w-full h-auto rounded-lg mb-6">
-                <p class="text-lg mb-4 text-gray-700 leading-relaxed">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis augue at velit convallis placerat.
-                </p>
-                <h3 class="text-2xl font-bold mb-3 text-[#4993EB]">Subjudul Artikel</h3>
-                <p class="text-lg mb-4 text-gray-700 leading-relaxed">
-                    Suspendisse potenti. Donec et velit lorem. Nam sagittis odio id massa pellentesque, nec lacinia lorem scelerisque.
-                </p>
-                <blockquote class="border-l-4 border-blue-500 pl-4 italic text-lg my-6">
-                    "Artikel yang bagus membawa pembaca pada wawasan baru dan inspirasi baru."
-                </blockquote>
-                <p class="text-lg mb-4 text-gray-700 leading-relaxed">
-                    Curabitur fringilla lorem eu bibendum malesuada. Cras vitae interdum libero.
-                </p>
+                <h2 class="text-4xl font-bold mb-6 text-[#4993EB]">{{ $article->title }}</h2>
+                <p class="text-gray-600 mb-4">Penulis: <strong class="text-[#4993EB]">{{ $article->penulis }}</strong> | Tanggal: {{ $article->created_at->format('d F y') }}</p>
+                <img src="{{ asset($article->image) }}" alt="Gambar Artikel" class="w-full h-auto rounded-lg mb-6">
+                <p class="text-lg mb-4 text-gray-700 leading-relaxed">{!! $article->description !!}</p>
             </article>
+            @endforeach
 
             <!-- Sidebar -->
             <aside class="w-full lg:w-1/3 bg-gradient-to-r from-[#4993EB] to-[#3065BC] p-8 lg:p-10 rounded-lg shadow-lg">
                 <h3 class="text-2xl font-bold mb-6 text-white">Artikel Lainnya</h3>
                 <div class="grid gap-6">
-                    <!-- Card 1 -->
+                    @foreach($more as $article)
                     <div class="bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden">
-                        <img src="images/blogs.jpg" alt="Artikel 1" class="w-full h-48 object-cover">
+                        <img src="{{ asset($article->image) }}" alt="Artikel 1" class="w-full h-48 object-cover">
                         <div class="p-5">
-                            <h5 class="text-xl font-bold mb-3">Noteworthy technology acquisitions 2021</h5>
-                            <p class="text-gray-700 mb-3">Here are the biggest enterprise technology acquisitions of 2021.</p>
-                            <a href="#" class="text-blue-500 hover:text-blue-600 font-semibold">Read More</a>
+                            <h5 class="text-xl font-bold mb-3">{{ $article->title }}</h5>
+                            <p class="text-gray-700 mb-3">{!! Str::limit($article->description, 100, '...') !!}</p>
+                            <a href="{{ route('Article-Overview', $article->id) }}" class="text-blue-500 hover:text-blue-600 font-semibold">Read More</a>
                         </div>
                     </div>
-
-                    <!-- Card 2 -->
-                    <div class="bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden">
-                        <img src="images/blogs.jpg" alt="Artikel 2" class="w-full h-48 object-cover">
-                        <div class="p-5">
-                            <h5 class="text-xl font-bold mb-3">Top 10 Web Development Trends in 2024</h5>
-                            <p class="text-gray-700 mb-3">Exploring the latest web development trends.</p>
-                            <a href="#" class="text-blue-500 hover:text-blue-600 font-semibold">Read More</a>
-                        </div>
-                    </div>
+                    @endforeach
                 </div>
             </aside>
         </div>

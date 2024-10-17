@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Article;
 use App\Models\Testimoni;
 use App\Models\StudiKasus;
 use Illuminate\Http\Request;
@@ -12,6 +13,12 @@ class ClientController extends Controller
 {
     public function create(){
         return view('client.add');
+    }
+
+    public function view(){
+        $testimoni = Testimoni::get();
+        $studi = StudiKasus::get();
+        return view('pages.client_page', compact('testimoni'), compact('studi'));
     }
 
     public function store(Request $request)
@@ -31,7 +38,7 @@ class ClientController extends Controller
             $imageName = time() . '.' . $image->getClientOriginalExtension();
             $image->move(public_path('storage/image'), $imageName);
             
-            $data['image'] = 'storage/image/' . $imageName;
+            $data['image'] = 'storage/image' . $imageName;
         }
     
         // Simpan data ke tabel yang sesuai berdasarkan 'type'
@@ -69,6 +76,12 @@ class ClientController extends Controller
     public function testimoni(){
         $data = Testimoni::get();
         return view('client.testimoni.index', compact('data'));
+    }
+
+    public function section(){
+        $data = Testimoni::get();
+        $blog = Article::inRandomOrder()->take(4)->get();
+        return view('index', compact('data', 'blog'));
     }
 
     public function editTesti($id)

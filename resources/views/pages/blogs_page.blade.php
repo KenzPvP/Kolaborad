@@ -31,109 +31,40 @@
     </div>
 
     <div class="container mx-auto flex flex-col md:flex-row py-12 gap-8">
-        <!-- Sidebar Section -->
+        
         <aside class="w-full md:w-1/3 px-4">
             <div class="w-full bg-white shadow-md rounded-lg p-6">
-                <p class="text-2xl font-semibold pb-4">About Us</p>
-                <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas mattis est
-                    eu odio sagittis tristique. Vestibulum ut finibus leo.</p>
-                <a href="#"
-                    class="w-full bg-blue-800 text-white font-bold text-sm uppercase rounded hover:bg-blue-700 flex items-center justify-center px-4 py-2 mt-4">
-                    Get to know us
-                </a>
-            </div>
+                <p class="text-2xl font-semibold pb-4">Category</p>
+
+                <div class="flex flex-row gap-3">
+                    <div id="category-links">
+                        @foreach($categories as $category)
+                            <a href="#" data-category-id="{{ $category->id }}" class="category-link w-full bg-blue-800 text-white font-semibold text-sm rounded hover:bg-blue-700 flex items-center justify-center px-4 py-2 mt-4">
+                                {{ $category->judul }}
+                            </a>
+                        @endforeach
+                    </div>
+                </div>
+            </div> 
         </aside>
 
         <!-- Posts Section -->
         <section class="w-full md:w-2/3 flex flex-col gap-8 px-4">
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 <!-- Card 1 -->
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img class="w-full h-48 object-cover" src="https://via.placeholder.com/400x200" alt="Blog Image">
+                @foreach($articles as $article)
+                <div class="article-item bg-white rounded-lg shadow-md overflow-hidden" data-category-id="{{ $article->category_id }}">
+                    <img class="w-full h-48 object-cover" src="{{ asset($article->image) }}" alt="Blog Image">
                     <div class="p-6">
-                        <h2 class="text-2xl font-bold text-gray-800">Blog Title</h2>
-                        <p class="text-gray-600 mt-2">
-                            This is a short excerpt from the blog to give readers an idea of the content.
-                        </p>
+                        <h2 class="text-2xl font-bold text-gray-800">{{ $article->title }}</h2>
+                        <p class="text-gray-600 mt-2">{!! Str::limit($article->description, 100, '...') !!}</p>
                         <div class="flex justify-between items-center mt-4">
-                            <a href="/article" class="text-blue-500 hover:text-blue-600 font-medium">Read More</a>
-                            <span class="text-gray-400 text-sm">September 13, 2024</span>
+                            <a href="{{ route('Article-Overview', $article->id) }}" class="text-blue-500 hover:text-blue-600 font-medium">Read More</a>
+                            <span class="text-gray-400 text-sm">{{ $article->created_at->format('d F Y') }}</span>
                         </div>
                     </div>
                 </div>
-
-                <!-- Card 2 -->
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img class="w-full h-48 object-cover" src="https://via.placeholder.com/400x200" alt="Blog Image">
-                    <div class="p-6">
-                        <h2 class="text-2xl font-bold text-gray-800">Blog Title</h2>
-                        <p class="text-gray-600 mt-2">
-                            This is a short excerpt from the blog to give readers an idea of the content.
-                        </p>
-                        <div class="flex justify-between items-center mt-4">
-                            <a href="#" class="text-blue-500 hover:text-blue-600 font-medium">Read More</a>
-                            <span class="text-gray-400 text-sm">September 13, 2024</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card 3 -->
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img class="w-full h-48 object-cover" src="https://via.placeholder.com/400x200" alt="Blog Image">
-                    <div class="p-6">
-                        <h2 class="text-2xl font-bold text-gray-800">Blog Title</h2>
-                        <p class="text-gray-600 mt-2">
-                            This is a short excerpt from the blog to give readers an idea of the content.
-                        </p>
-                        <div class="flex justify-between items-center mt-4">
-                            <a href="#" class="text-blue-500 hover:text-blue-600 font-medium">Read More</a>
-                            <span class="text-gray-400 text-sm">September 13, 2024</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card 4 -->
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img class="w-full h-48 object-cover" src="https://via.placeholder.com/400x200" alt="Blog Image">
-                    <div class="p-6">
-                        <h2 class="text-2xl font-bold text-gray-800">Blog Title</h2>
-                        <p class="text-gray-600 mt-2">
-                            This is a short excerpt from the blog to give readers an idea of the content.
-                        </p>
-                        <div class="flex justify-between items-center mt-4">
-                            <a href="#" class="text-blue-500 hover:text-blue-600 font-medium">Read More</a>
-                            <span class="text-gray-400 text-sm">September 13, 2024</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Card 5 -->
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img class="w-full h-48 object-cover" src="https://via.placeholder.com/400x200" alt="Blog Image">
-                    <div class="p-6">
-                        <h2 class="text-2xl font-bold text-gray-800">Blog Title</h2>
-                        <p class="text-gray-600 mt-2">
-                            This is a short excerpt from the blog to give readers an idea of the content.
-                        </p>
-                        <div class="flex justify-between items-center mt-4">
-                            <a href="#" class="text-blue-500 hover:text-blue-600 font-medium">Read More</a>
-                            <span class="text-gray-400 text-sm">September 13, 2024</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Card 6 -->
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img class="w-full h-48 object-cover" src="https://via.placeholder.com/400x200" alt="Blog Image">
-                    <div class="p-6">
-                        <h2 class="text-2xl font-bold text-gray-800">Blog Title</h2>
-                        <p class="text-gray-600 mt-2">
-                            This is a short excerpt from the blog to give readers an idea of the content.
-                        </p>
-                        <div class="flex justify-between items-center mt-4">
-                            <a href="#" class="text-blue-500 hover:text-blue-600 font-medium">Read More</a>
-                            <span class="text-gray-400 text-sm">September 13, 2024</span>
-                        </div>
-                    </div>
-                </div>
+                @endforeach                
             </div>
         </section>
     </div>
@@ -141,5 +72,24 @@
     @include('modals.footer')
 
 </body>
+<script>
+    document.querySelectorAll('.category-link').forEach(link => {
+    link.addEventListener('click', function (e) {
+        e.preventDefault();
+        const selectedCategoryId = this.getAttribute('data-category-id');
+        const articles = document.querySelectorAll('.article-item');
+
+        articles.forEach(article => {
+            const articleCategoryId = article.getAttribute('data-category-id');
+
+            if (!selectedCategoryId || articleCategoryId === selectedCategoryId) {
+                article.style.display = 'block'; // Tampilkan artikel
+            } else {
+                article.style.display = 'none'; // Sembunyikan artikel
+            }
+        });
+    });
+});
+</script>
 
 </html>
