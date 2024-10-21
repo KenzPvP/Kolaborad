@@ -22,7 +22,7 @@
         <div class="flex flex-col justify-center items-center w-full py-36">
             <h2 class="text-center text-2xl font-semibold text-[#f9f4ca] mb-12">Blogs</h2>
             <div
-                class="container justify-center items-center p-32 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+                class="container justify-center items-center p-2 md:p-32 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
                 <!-- Card 1 -->
                 <div
                     class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mx-auto">

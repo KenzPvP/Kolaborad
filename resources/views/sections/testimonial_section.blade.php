@@ -18,7 +18,7 @@
         </div>
     </div>
 
-    <div class="flex flex-col md:flex-row p-32 py-10 bg-white">
+    <div class="flex flex-col md:flex-row p-2 md:p-32 py-10 bg-white">
         <!-- Left section with image -->
         <div class="w-full md:w-1/2 flex justify-center">
             <img src="images/testimoni.png" alt="Illustration" class="flex h-96 object-contain">
@@ -37,7 +37,7 @@
         </div>
     </div>
 
-    <div class="flex flex-col w-full p-32 py-36 bg-gradient-to-r from-[#1d75bd] to-[#125f97]">
+    <div class="flex flex-col w-full p-3 md:p-32 py-36 bg-gradient-to-r from-[#1d75bd] to-[#125f97]">
         <h2 class="text-center text-2xl font-semibold text-[#f9f4ca] mb-12">Testimoni</h2>
 
 

@@ -147,14 +147,14 @@
                 </div>
             </div>
         </div>
-        
+
     </div>
 
 
 
 
     <div class="flex flex-col justify-between gap-4">
-        <div class="relative min-h-screen bg-no-repeat bg-cover bg-center p-20"
+        <div class="relative min-h-screen bg-no-repeat bg-cover bg-center p-2 md:p-20"
             style="background-image: url('images/Rectangle_about2.png'); ">
             <div class="flex flex-row items-center justify-between h-full">
                 <div class="flex justify-center items-center w-full h-screen md:w-1/2">
@@ -182,7 +182,7 @@
                 <h2 class="text-3xl font-semibold text-center text-[#4993EB] mb-8">Nilai-nilai</h2>
 
                 <!-- Card Grid -->
-                <div class="grid grid-cols-1 px-20 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="grid grid-cols-1 px-1 md:px-20 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                     <!-- Card 1 -->
                     <div class="max-w-sm rounded justify-center items-center self-center overflow-hidden shadow-lg">
                         <div class="flex flex-row justify-center items-center self-center">
