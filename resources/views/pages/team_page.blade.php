@@ -64,7 +64,7 @@
             </div>
 
             <!-- Team Section -->
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
                 <!-- Card 1 -->
                 <div class="bg-white rounded-lg shadow-lg p-6 text-center">
                     <img class="w-24 h-24 rounded-full mx-auto" src="https://via.placeholder.com/150" alt="Member 1">
@@ -119,7 +119,7 @@
                         pengembangan aplikasi yang efisien dan inovatif.</p>
                 </div>
             </div>
-          
+
             <div class="w-full bg-gradient-to-r from-[#4993EB] to-[#3065BC] py-8 flex justify-center items-center mt-0">
                 <div class="flex flex-row items-center space-x-4 gap-16">
                     <span class="text-white text-lg md:text-xl font-semibold">Hubungi Kami Sekarang</span>
