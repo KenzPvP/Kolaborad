@@ -3,7 +3,7 @@
     <div class="container mx-auto px-4 py-3 flex justify-between items-center">
         <!-- Logo (Desktop & Mobile) -->
         <div>
-            <img id="navbar-logo" src="images/Logo_kolaborad.png" alt="Logo Kolaborad" class="h-12 transition-all duration-300 object-contain">
+            <img id="navbar-logo" src="images/Logo_kolaborad.png" alt="Logo Kolaborad" class="h-20 transition-all duration-300 object-contain">
         </div>
 
         <!-- Navbar Links (Desktop only) -->
@@ -86,7 +86,7 @@
         const logo = document.getElementById('navbar-logo');
         const navbarLinks = document.querySelectorAll('#navbar-links a');
         const contactButton = document.getElementById('contact-button');
-        
+
         if (window.scrollY > 50) {
             navbar.classList.add('bg-white', 'shadow-md');
             navbar.classList.remove('bg-transparent');

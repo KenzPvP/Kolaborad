@@ -38,7 +38,7 @@
     </div>
 
     <div class="flex flex-col w-full p-3 md:p-32 py-36 bg-gradient-to-r from-[#1d75bd] to-[#125f97]">
-        <h2 class="text-center text-2xl font-semibold text-[#f9f4ca] mb-12">Testimoni</h2>
+        <h2 class="text-center text-4xl font-semibold text-[#f9f4ca] mb-12">Testimoni</h2>
 
 
         <!-- Team Section -->

@@ -39,9 +39,9 @@
         </div>
     </div>
 
-    <div class="flex flex-col w-full py-36 bg-white">
-        <h2 class="text-center text-2xl font-semibold text-[#4993EB] mb-12">DAFTAR LAYANAN</h2>
-        <div class="container p-2 md:p-32 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+    <div class="flex flex-col w-full py-24 bg-white">
+        <h2 class="text-center text-4xl font-semibold text-[#4993EB] mb-5">DAFTAR LAYANAN</h2>
+        <div class="container p-2 md:p-16 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5">
             <!-- Card 1 -->
             <div class="bg-white shadow-lg p-6  ">
                 <div class="flex items-center mb-4">

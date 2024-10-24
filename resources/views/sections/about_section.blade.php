@@ -176,10 +176,10 @@
 
         </div>
 
-        <div class="py-12 px-4 lg:px-16 mt-48">
+        <div class="py-12 px-8 lg:px-16">
 
             <div class="flex flex-col gap-20 max-w-7xl mx-auto">
-                <h2 class="text-3xl font-semibold text-center text-[#4993EB] mb-8">Nilai-nilai</h2>
+                <h2 class="text-4xl font-semibold text-center text-[#4993EB] mb-8">Nilai-nilai</h2>
 
                 <!-- Card Grid -->
                 <div class="grid grid-cols-1 px-1 md:px-20 sm:grid-cols-2 lg:grid-cols-3 gap-6">

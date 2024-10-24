@@ -70,7 +70,8 @@
                 <h2 class="mb-4 text-sm font-semibold text-gray-900 uppercase">Contact Information</h2>
                 <ul class="text-gray-500 dark:text-gray-400 font-medium">
                     <li class="mb-2">
-                        <strong>Address:</strong> Jl. Example No. 123, Jakarta, Indonesia
+                        <strong>Address:</strong> Virtual Office Gedung Artha Graha Lt. 26 Unit 2601 SCBD Jl Jend.
+                        Sudirman Kav 52-53 Jaksel 12190
                     </li>
                     <li class="mb-2">
                         <strong>Phone:</strong> <a href="tel:+622123456789" class="hover:underline">(+62) 21-234-56789</a>

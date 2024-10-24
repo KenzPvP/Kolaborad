@@ -119,15 +119,7 @@
                         pengembangan aplikasi yang efisien dan inovatif.</p>
                 </div>
             </div>
-            <div class="text-start">
-                <h2 class="text-2xl text-[#4993EB] font-semibold tracking-wide uppercase">Filosofi kami</h2>
-                <p class="mt-4 text-xl text-gray-500">
-                    Setiap anggota tim Kolaborad adalah pelaku utama dalam memastikan keberhasilan setiap proyek.
-                    Kami percaya bahwa kolaborasi lintas fungsi dan inovasi yang berkelanjutan adalah kunci untuk
-                    menghadirkan solusi yang sesuai dengan kebutuhan klien dan menciptakan dampak yang nyata bagi
-                    pertumbuhan bisnis mereka.
-                </p>
-            </div>
+          
             <div class="w-full bg-gradient-to-r from-[#4993EB] to-[#3065BC] py-8 flex justify-center items-center mt-0">
                 <div class="flex flex-row items-center space-x-4 gap-16">
                     <span class="text-white text-lg md:text-xl font-semibold">Hubungi Kami Sekarang</span>

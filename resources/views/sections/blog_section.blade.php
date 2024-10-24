@@ -20,7 +20,7 @@
     <div class="relative min-h-96 bg-no-repeat bg-cover bg-center"
         style="background-image: url('images/Polygon.png'); ">
         <div class="flex flex-col justify-center items-center w-full py-36">
-            <h2 class="text-center text-2xl font-semibold text-[#f9f4ca] mb-12">Blogs</h2>
+            <h2 class="text-center text-4xl font-semibold text-[#f9f4ca] mb-12">Blogs</h2>
             <div
                 class="container justify-center items-center p-2 md:p-32 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
                 <!-- Card 1 -->
